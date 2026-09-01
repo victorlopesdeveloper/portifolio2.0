@@ -90,14 +90,78 @@ h1{
 }
 
 .sobre{
-
+    padding: 6rem 2rem ;
 }
 .sobre-titulo{
-
+    font-size: 3rem;
+    color: var(--claro);
+    text-align: center;
+    margin-bottom: 20px;
 }
 .sobre-caixa{
-
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    text-align: justify;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
 }
 .sobre-paragrafo{
-    
+    font-size: 1.1rem;
 }
+
+.projetos{
+    padding: 6rem 2rem;
+    color: var(--claro);
+}
+
+.projetos-card{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.projetos-card:hover{
+    box-shadow: 0px 10px 20px rgba(79, 70, 229, 0.2);
+    transform: translateY(-10px) scale(1.03);
+}
+
+.projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.projetos-titulo{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+
+.projetos-imagem{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.caixa-texto-projeto{
+    padding: 1.4rem;
+}
+
+.paragrafo-projetos{
+    text-align: justify;
+}
+
+.info-projetos{
+    margin-bottom: 5px;
+}
+
