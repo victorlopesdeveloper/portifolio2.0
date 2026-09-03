@@ -122,12 +122,13 @@ div#social a:hover{
     margin: 0 auto;
     border-radius: 16px;
     border: 1px solid var(--vidro);
-    text-align: justify;
+    
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.05);
 }
 .sobre-paragrafo{
     font-size: 1.1rem;
+    text-align: justify;
 }
 
 .projetos{
@@ -179,11 +180,12 @@ div#social a:hover{
 }
 
 .paragrafo-projetos{
-    text-align: justify;
+    text-align: center;
 }
 
 .info-projetos{
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .contatos{
