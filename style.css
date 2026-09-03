@@ -272,5 +272,6 @@ div#social a:hover{
 @media screen and (max-width: 550px){
     .sobre-paragrafo{
         font-size: 0.7rem;
+        text-align: justify;
     }
 }
