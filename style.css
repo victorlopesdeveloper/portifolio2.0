@@ -85,9 +85,26 @@ h1{
     font-weight: bold;
     margin: 10px;
 }
+div#social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+  gap: 1em;
+ 
+}
+div#social a{
+  color: var(--claro);
+
+}
+div#social a:hover{
+  color: var(--secundaria);
+  transition: color 0.5s;
+}
 .cabecalho p{
   font-size: 1.5rem;
-  color: var(--claro);  
+  color: var(--claro);
+  margin-bottom: 25px;  
 }
 
 .sobre{
