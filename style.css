@@ -147,7 +147,10 @@ h1{
     font-size: 2rem;
     margin-bottom: 35px;
 }
-
+.link-cards{
+    text-decoration: none;
+    color: var(--claro);
+}
 .projetos-imagem{
     height: 200px;
     width: 100%;
