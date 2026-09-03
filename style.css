@@ -266,3 +266,9 @@ div#social a:hover{
         transform: translateY(-20px);
     }
 }
+
+@media screen and (max-width: 550px){
+    .sobre-paragrafo{
+        font-size: 0.7rem;
+    }
+}
